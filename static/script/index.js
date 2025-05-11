@@ -589,10 +589,10 @@
 				this.y = game.height-20-5;
 				context.fillText(text,this.x,this.y);
 			}
-		// }).bind('click',function(){
-		// 	window.open('https://passer-by.com');
-		// });
-		//事件绑定
+		}).bind('click',function(){
+			window.open('https://passer-by.com');
+		});
+		事件绑定
 		stage.bind('keydown',function(e){
 			switch(e.keyCode){
 				case 13:
